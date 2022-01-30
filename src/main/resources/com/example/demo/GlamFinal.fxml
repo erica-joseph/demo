@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControlToo">
+   <children>
+      <ImageView id="back" fitHeight="606.0" fitWidth="1024.0" layoutX="-34.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/RedCarpet.png" />
+         </image>
+      </ImageView>
+      <!--undies-->
+      <ImageView fx:id="baseImage" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/NoUnd.png" />
+         </image>
+      </ImageView>
+      <!--accessories-->
+      <ImageView fx:id="accSlotToo" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true" />
+      <!--bonnet-->
+      <ImageView fx:id="hairSlotToo" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/BonnetAl.png" />
+         </image>
+      </ImageView>
+      <!--bottoms-->
+      <ImageView fx:id="shoeSlotToo" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true" />
+      <!--bottoms-->
+      <ImageView fx:id="bottomSlotToo" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/UndiesBottom.png" />
+         </image>
+      </ImageView>
+      <!--top-->
+      <ImageView fx:id="topSlotToo" fitHeight="534.0" fitWidth="572.0" layoutX="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/UndiesTop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="305.0" fitWidth="375.0" layoutX="55.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true" rotate="70.0">
+         <image>
+            <Image url="@Images/DressGame/Sparkle1.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="305.0" fitWidth="375.0" layoutX="525.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/Sparkle1.gif" />
+         </image>
+      </ImageView>
+      <ImageView id="back" fitHeight="606.0" fitWidth="1024.0" layoutX="-32.0" layoutY="-27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/Papp.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="veil" arcHeight="5.0" arcWidth="5.0" height="782.0" layoutX="-24.0" layoutY="-163.0" stroke="BLACK" strokeType="INSIDE" width="1033.0" />
+      <Button fx:id="again" layoutX="805.0" layoutY="30" mnemonicParsing="false" onAction="#playAgain" styleClass="butGen" text="⟲">
+         <tooltip>
+            <Tooltip text="Play again!" />
+         </tooltip></Button>
+      <Button fx:id="photo" layoutX="805.0" layoutY="100" mnemonicParsing="false" onAction="#takePhoto" styleClass="camera" text="📽">
+         <tooltip>
+            <Tooltip text="Snap a photo!" />
+         </tooltip></Button>
+      <ImageView fitHeight="70.0" fitWidth="151.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/Logo2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ffs" layoutX="119.0" layoutY="187.0" mnemonicParsing="false" onAction="#changeTopToo" prefHeight="160.0" prefWidth="710.0" styleClass="reveal" text="Reveal" />
+
+   </children>
+</AnchorPane>

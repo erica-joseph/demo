@@ -1,0 +1,208 @@
+@font-face {
+    font-family:'wmdrama1';
+    src:url("Wmdrama1wd9Z.ttf");
+}
+@font-face {
+    font-family:'Digital Camera Symbols';
+    src:url("DigitalCameraSymbols.ttf");
+}
+@font-face {
+    font-family:'Kamera Dings';
+    src:url("kameradings.ttf");
+}
+@font-face {
+    font-family:'BudmoJiggler-Regular';
+    src:url("budmojiggler.ttf");
+}
+
+.finalBut{
+    -fx-font-family: wmdrama1;
+    -fx-text-fill: #000;
+     -fx-font-size: 30;
+     -fx-background-color: transparent;
+     -fx-alignment:center;
+}
+.butGen{
+    -fx-text-fill: transparent;
+     -fx-font-size: 45;
+     -fx-background-color: transparent;
+     -fx-alignment:center;
+}
+.butGen1{
+    -fx-text-fill: #000;
+     -fx-font-size: 45;
+     -fx-background-color: transparent;
+     -fx-alignment:center;
+}
+.reveal{
+    -fx-font-family: BudmoJiggler-Regular;
+    -fx-text-fill: #fff;
+     -fx-font-size: 100;
+     -fx-background-color: transparent;
+     -fx-alignment:center;
+     -fx-effect: dropshadow(gaussian, rgba(256, 256, 256, 0.3), 10, .7, 1, 0.0)
+}
+
+.camera{
+    -fx-font-family: Kamera Dings;
+    -fx-text-fill: transparent;
+     -fx-font-size: 45;
+     -fx-background-color: transparent;
+     -fx-alignment:center;
+}
+
+.finalBut:hover{
+-fx-effect: dropshadow(gaussian, rgba(256, 256, 256, 0.3), 10, .7, 1, 0.0);
+}
+.camera:hover{
+-fx-effect: dropshadow(gaussian, rgba(256, 256, 256, 0.3), 10, .7, 1, 0.0);
+}
+.butGen:hover{
+-fx-effect: dropshadow(gaussian, rgba(256, 256, 256, 0.3), 10, .7, 1, 0.0);
+
+}
+.butGe1n:hover{
+-fx-effect: dropshadow(gaussian, rgba(256, 256, 256, 0.3), 10, .7, 1, 0.0);
+}
+
+.wig1{
+ -fx-background-image: url('Wig1.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 107px 144px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.wig2{
+ -fx-background-image: url('Wig2.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 107px 144px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.wig3{
+ -fx-background-image: url('Wig3.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 107px 144px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.wig4{
+ -fx-background-image: url('Wig4.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 107px 144px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.acc1{
+ -fx-background-image: url('Jewels1.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 70px 70px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.acc2{
+ -fx-background-image: url('Jewels2.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 70px 70px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.acc3{
+ -fx-background-image: url('Jewels3.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 70px 70px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.top1{
+ -fx-background-image: url('WhiteTopHanger.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 196px 196px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.top2{
+ -fx-background-image: url('BlueTopHanger.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 196px 196px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.top3{
+ -fx-background-image: url('GoldTopHanger.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 196px 196px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.top4{
+ -fx-background-image: url('YellowTopHanger.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 196px 196px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.bot1{
+ -fx-background-image: url('WhiteFold.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 92px 28px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.bot2{
+ -fx-background-image: url('BlueFold.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 92px 28px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.bot3{
+ -fx-background-image: url('GoldFold.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 92px 28px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.bot4{
+ -fx-background-image: url('YellowFold.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 92px 28px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+
+.shoe1{
+ -fx-background-image: url('Shoe1.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 142px 136px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+.shoe2{
+ -fx-background-image: url('Shoe2.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 142px 136px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}
+.shoe3{
+ -fx-background-image: url('Shoe3.png');
+                -fx-background-color: transparent;
+                -fx-background-size: 142px 136px;
+                -fx-background-repeat: no-repeat;
+                -fx-background-position: center;
+}

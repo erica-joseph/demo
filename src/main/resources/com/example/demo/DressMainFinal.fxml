@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <children>
+      <ImageView id="back" fitHeight="606.0" fitWidth="1024.0" layoutX="-34.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/Background3.png" />
+         </image>
+      </ImageView>
+      <!--undies-->
+      <ImageView fx:id="baseImage" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/NoUnd.png" />
+         </image>
+      </ImageView>
+      <!--accessories-->
+      <ImageView fx:id="accSlot" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+      <!--bottoms-->
+      <ImageView fx:id="shoeSlot" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+      <!--bottoms-->
+      <ImageView fx:id="bottomSlot" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/UndiesBottom.png" />
+         </image>
+      </ImageView>
+      <!--top-->
+      <ImageView fx:id="topSlot" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/UndiesTop.png" />
+         </image>
+      </ImageView>
+      <!--bonnet-->
+      <ImageView fx:id="hairSlot" fitHeight="534.0" fitWidth="572.0" layoutX="35.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/BonnetAl.png" />
+         </image>
+      </ImageView>
+      <Button id="wig1" fx:id="wig1" layoutX="371.0" layoutY="33.0" mnemonicParsing="false" onAction="#wig1" prefHeight="144" prefWidth="107" styleClass="wig1" text=" ">
+         <tooltip>
+            <Tooltip text="Pick a hairstyle!" />
+         </tooltip></Button>
+      <Button id="wig2" fx:id="wig2" layoutX="517.0" layoutY="33.0" mnemonicParsing="false" onAction="#wig2" prefHeight="144" prefWidth="107" styleClass="wig2" text=" " />
+      <Button id="wig3" fx:id="wig3" layoutX="666.0" layoutY="33.0" mnemonicParsing="false" onAction="#wig3" prefHeight="144" prefWidth="107" styleClass="wig3" text=" " />
+      <Button id="wig4" fx:id="wig4" layoutX="824.0" layoutY="33.0" mnemonicParsing="false" onAction="#wig4" prefHeight="144" prefWidth="107" styleClass="wig4" text=" " />
+      <Button id="acc1" fx:id="acc1" layoutX="720.0" layoutY="456.0" mnemonicParsing="false" onAction="#acc1" prefHeight="70" prefWidth="70" styleClass="acc1" text=" ">
+         <tooltip>
+            <Tooltip text="Choose your jewelry!" />
+         </tooltip></Button>
+      <Button id="acc2" fx:id="acc2" layoutX="794.0" layoutY="456.0" mnemonicParsing="false" onAction="#acc2" prefHeight="70" prefWidth="70" styleClass="acc2" text=" " />
+      <Button id="acc3" fx:id="acc3" layoutX="868.0" layoutY="456.0" mnemonicParsing="false" onAction="#acc3" prefHeight="70" prefWidth="70" styleClass="acc3" text=" " />
+      <Button id="top1" fx:id="top1" layoutX="350.0" layoutY="186.0" mnemonicParsing="false" onAction="#changeTop1" prefHeight="196" prefWidth="196" styleClass="top1" text=" ">
+         <tooltip>
+            <Tooltip text="Choose your top!" />
+         </tooltip></Button>
+      <Button id="top2" fx:id="top2" layoutX="497.0" layoutY="188.0" mnemonicParsing="false" onAction="#changeTop2" prefHeight="196" prefWidth="196" styleClass="top2" text=" " />
+      <Button id="top3" fx:id="top3" layoutX="640.0" layoutY="188.0" mnemonicParsing="false" onAction="#changeTop3" prefHeight="196" prefWidth="196" styleClass="top3" text=" " />
+      <Button id="top4" fx:id="top4" layoutX="780.0" layoutY="188.0" mnemonicParsing="false" onAction="#changeTop4" prefHeight="196" prefWidth="196" styleClass="top4" text=" " />
+      <Button id="bot1" fx:id="bot1" layoutX="386.0" layoutY="356.0" mnemonicParsing="false" onAction="#changeBot1" prefHeight="28" prefWidth="92" styleClass="bot1" text=" ">
+         <tooltip>
+            <Tooltip text="Choose your bottom!" />
+         </tooltip></Button>
+      <Button id="bot2" fx:id="bot2" layoutX="536.0" layoutY="356.0" mnemonicParsing="false" onAction="#changeBot2" prefHeight="28" prefWidth="92" styleClass="bot2" text=" " />
+      <Button id="bot3" fx:id="bot3" layoutX="682.0" layoutY="356.0" mnemonicParsing="false" onAction="#changeBot3" prefHeight="28" prefWidth="92" styleClass="bot3" text=" " />
+      <Button id="bot4" fx:id="bot4" layoutX="822.0" layoutY="356.0" mnemonicParsing="false" onAction="#changeBot4" prefHeight="28" prefWidth="92" styleClass="bot4" text=" " />
+      <Button id="shoe1" fx:id="shoe1" layoutX="350.0" layoutY="399.0" mnemonicParsing="false" onAction="#shoe1" prefHeight="136" prefWidth="142" styleClass="shoe1" text=" ">
+         <tooltip>
+            <Tooltip text="Choose your shoes!" />
+         </tooltip></Button>
+      <Button id="shoe2" fx:id="shoe2" layoutX="453.0" layoutY="399.0" mnemonicParsing="false" onAction="#shoe2" prefHeight="136" prefWidth="142" styleClass="shoe2" text=" " />
+      <Button id="shoe3" fx:id="shoe3" layoutX="569.0" layoutY="399.0" mnemonicParsing="false" onAction="#shoe3" prefHeight="136" prefWidth="142" styleClass="shoe3" text=" " />
+      <Button fx:id="resetField" layoutX="-16.0" layoutY="50" mnemonicParsing="false" onAction="#resetPage" styleClass="butGen1" text="⤫">
+         <tooltip>
+            <Tooltip text="Reset your outfit!" />
+         </tooltip></Button>
+      <Button fx:id="finished" layoutX="-5.0" layoutY="210" mnemonicParsing="false" onAction="#redCarpet" styleClass="finalBut" text="c">
+         <tooltip>
+            <Tooltip text="Head to the red carpet!" />
+         </tooltip></Button>
+      <Button fx:id="random" layoutX="-16.0" layoutY="120" mnemonicParsing="false" onAction="#randomize" styleClass="butGen1" text="⤭">
+         <tooltip>
+            <Tooltip text="Randomize your outfit!" />
+         </tooltip></Button>
+      <ImageView fitHeight="70.0" fitWidth="151.0" layoutX="6.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/DressGame/Logo2.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
